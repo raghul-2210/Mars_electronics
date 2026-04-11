@@ -1,12 +1,20 @@
-# Mars_electronics
-Digital Mood Thermometer
-For the final requirement, I chose a custom project inspired by online resources to expand my skills with environmental sensors and multi-color outputs.
+# TinkerCAD Arduino Projects
 
-Project Brief:
-This project is a visual temperature indicator. It uses a TMP36 sensor to monitor the surrounding temperature and an RGB LED to display the status.
+This repository contains my solutions for advanced circuit challenges and a final custom project.
 
-Blue: Cold (below 20°C)
+### 1. Fundamental Skills Learned
+From the initial three challenges, I mastered core Arduino programming functions:
+* **Non-blocking Timing:** Using `millis()` to run multiple tasks simultaneously without pausing the code.
+* **Analog Control:** Using `analogRead` (Potentiometer) and `analogWrite` (RGB LED) to control intensity and color.
+* **User Input:** Using `INPUT_PULLUP` for stable button sensing and calculating reaction times.
 
-Green: Comfortable (20°C – 30°C)
+### 2. Custom Project: Digital Mood Thermometer
+For the final project, I researched an idea online to build a **Digital Mood Thermometer**.
 
-Red: Hot (above 30°C)
+**Project Brief:**
+This project uses a **TMP36 Temperature Sensor** to monitor environmental heat. Instead of just reading numbers, it uses an **RGB LED** to provide instant visual feedback:
+* **Blue:** Cold environment.
+* **Green:** Comfortable temperature.
+* **Red:** Hot/Warning state.
+
+It combines temperature sensing with color-coded logic to create a simple, intuitive monitoring device.
